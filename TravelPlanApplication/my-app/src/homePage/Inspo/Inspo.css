@@ -1,0 +1,167 @@
+/* post page */
+
+.post_page{
+    margin: 1rem;
+}
+
+.post_owner{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.no_content{
+    grid-column:span 1;
+}
+
+.post_line{
+    border: 1px solid #a6a4ac;
+}
+
+.add_status > button {
+    margin: 0.5rem;
+    background-color: #eaf2f6;
+    color: #8e7dbe;
+    border-radius: 6px; 
+    font-weight: bold;
+
+    /* width: 4rem; */
+
+    border-color:#8e7dbe;
+}
+
+.add_status > button:hover {
+    background-color: #446A46;
+    color: white;
+}
+
+@media screen and (max-width:560px){
+
+    .post_owner{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+
+
+    .add_status > button {
+        width: 8rem;
+        height: 2rem;
+        font-size: large;
+    }
+}
+
+
+
+
+/* post list page */
+.post{
+    text-align:start;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+
+    border: 2px solid #82A284;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+    transition: 1s;
+    background-color: #f6f0ea;
+}
+
+.post_image{
+    display: flex;
+    grid-column: span 1;
+    height: 5rem;
+    margin: 0.2rem;
+}
+
+.post_theme{
+    font-size: large;
+    color: #446A46;
+    font-weight: bold;
+    margin: 0.2rem;
+}
+
+.post_description{
+    display: flex;
+    font-size: medium;
+    color: #446A46;
+    margin: 0.2rem;
+}
+
+.post_button{
+
+    color: #8e7dbe;
+    border: none;
+}
+
+/* Add post list page*/
+
+.post_container{
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
+    border: 2px solid #82A284;
+
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
+    width: 40rem;
+    border-radius: 0.5rem;
+    transition: 1s;
+    background-color: #f6f0ea;
+}
+
+.post_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0.5rem;
+}
+
+.post_content > label {
+    margin-top: 1rem;
+}
+
+.post_content > input {
+    margin: 0.2rem;
+}
+
+.post_content > textarea {
+    height:5rem;
+}
+
+.submit_button {
+    margin-top: 1rem;
+    background-color: #eaf2f6;
+    color: #8e7dbe;
+    border-color:#8e7dbe;
+    border-radius: 6px; 
+    font-weight: bold;
+}
+
+.submit_button:hover {
+    background-color:#446A46;
+    color: white;
+}
+
+@media screen and (max-width:560px){
+
+    .post_container{
+        width: 15rem;
+    }
+}
+
+
+
+
+
+
+

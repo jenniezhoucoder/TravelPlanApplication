@@ -1,0 +1,61 @@
+/* about page */
+.about_page{
+    display: flex;
+    flex-direction: row;
+}
+
+.tab_title > button{
+    height: 3rem;
+    width:10rem;
+
+    background-color: transparent;
+
+    margin: 2rem;
+    background-color: #eaf2f6;
+    color: #8e7dbe;
+    border-radius: 6px; 
+    font-weight: bold;
+
+    border-color:#8e7dbe;
+    border-right: none;
+}
+
+.tab_title > button:hover {
+    background-color: #82A284;
+    color: white;
+}
+
+.tab--open > button {
+    background-color: #82A284;
+    color: white;
+
+    border: 2px solid #446A46;
+    border-radius: 0.5rem;
+    border-right: none;
+}
+
+/* tab page */
+
+.tab{
+    display: flex;
+    flex-direction: row;
+}
+
+.tab_content{
+    margin: 1rem;
+    text-align: left;
+}
+
+
+
+@media only screen and (max-width:560px) {
+    .tab_title > button {
+        width:5rem;
+        font-size: small;
+    }
+
+    .tab_content {
+        font-size: small;
+    }
+
+}

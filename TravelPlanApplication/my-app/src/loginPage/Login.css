@@ -1,0 +1,70 @@
+/*login*/
+body{
+    text-align: center;
+    color:#8e7dbe;
+}
+
+.login_heading{
+    font-family: Chalkduster, fantasy;
+    color:#8e7dbe;
+    padding-top:2rem;
+    margin:2rem;
+}
+
+.login_image{
+    width: 10rem;
+    height: 10rem;
+}
+
+.user_name{
+    margin: 2rem;
+    color: #446A46;
+    font-weight: bold;
+}
+
+.user_email{
+    margin: 2rem;
+    color: #446A46;
+    font-weight: bold;
+}
+
+.login_button {
+    background-color: #f6f0ea;
+    color: #8e7dbe;
+    font-weight: bold;
+    border-radius: 6px; 
+    padding: 8px 32px;
+
+    display:block;
+    margin:0 auto;
+    width: 100px;
+
+    border-color:#8e7dbe;
+}
+
+.login_button:hover {
+    background-color: #446A46;
+    color: white;
+}
+
+/*logout*/
+
+.logout_button {
+    margin:0 auto;
+    font-size: small;
+    float: right;
+    border-color:#8e7dbe;
+    background-color: #f6f0ea;
+    color: #8e7dbe;
+
+    border-radius: 6px; 
+    display:block;
+
+    text-decoration: underline;
+}
+
+.logout_button:hover {
+    background-color: #446A46;
+    color: white;
+}
+

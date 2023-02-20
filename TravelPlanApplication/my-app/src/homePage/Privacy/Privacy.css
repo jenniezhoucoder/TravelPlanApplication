@@ -1,0 +1,23 @@
+.privacy_page{
+    margin: 1rem;
+    color: #aca8a4;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+@media only screen and (max-width:560px) {
+    .privacy_page{
+        font-size: small;
+    }
+
+}
